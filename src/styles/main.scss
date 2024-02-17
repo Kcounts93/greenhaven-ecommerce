@@ -1,0 +1,50 @@
+// 1. Importing Bootstrap's functions and variables
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap");
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// 2. Define your custom colors and fonts
+$primary: #7d9779; // Primary Color
+$secondary: #c4c4c4; // Secondary Color
+$success: #5a6f64; // Accent Color
+$light: #fafafa; // Background Color
+$dark: #333333; // Text Color
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "light": $light,
+  "dark": $dark,
+);
+
+$font-family-sans-serif: "Roboto", sans-serif;
+$font-family-base: "Lato", sans-serif;
+
+// 3. Import Bootstrap's core
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// 4. Additional custom styles (if needed)
+body {
+  background-color: $light;
+  color: $dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-sans-serif;
+}
+
+p,
+li,
+span,
+a,
+and other text elements {
+  font-family: $font-family-base;
+}
