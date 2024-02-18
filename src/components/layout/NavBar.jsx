@@ -6,7 +6,12 @@ import logo from "../../assets/logos/GreenHaven.png"; // Ensure the path to your
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" expand="lg" className="justify-content-between">
+    <Navbar
+      expand="lg"
+      variant="light"
+      fixed="top"
+      className="justify-content-between bg-transparent"
+    >
       <Container>
         <Navbar.Brand as={NavLink} to="/">
           <img

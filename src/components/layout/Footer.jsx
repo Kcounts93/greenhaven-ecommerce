@@ -6,7 +6,7 @@ import logo from "../../assets/logos/GreenHaven.png"; // Update the path as nece
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer py-5">
       <Container>
         <Row className="align-items-center">
           <Col md={3} className="footer-brand">

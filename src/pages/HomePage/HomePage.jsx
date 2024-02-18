@@ -1,10 +1,10 @@
 import React from "react";
+import HomePageHero from "../../components/layout/HomePageHero";
 
 function HomePage() {
   return (
     <div>
-      <h1>Welcome to Greenhaven</h1>
-      {/* Additional content */}
+      <HomePageHero />
     </div>
   );
 }
