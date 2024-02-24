@@ -1,8 +1,8 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import "HomePage.module.scss";
 
+//sk-PVB765d95edb5d0222830
 const HomePageHero = () => {
   const navigate = useNavigate(); // Initialize the useNavigate hook
 
