@@ -15,8 +15,9 @@ function HomePage() {
         buttonLink="/shop"
         backgroundImage={homeBackground}
       />
-      <Container>
-        <Row xs={1} md={2} lg={3} className="g-4">
+      <Container className="my-5 py-5">
+        <h2 className="text-center">Our Top Selling</h2>
+        <Row xs={1} md={2} lg={3} className="g-4 py-5">
           {plantData.slice(0, 6).map((plant, index) => (
             <Col key={index}>
               <PlantCard plant={plant} />

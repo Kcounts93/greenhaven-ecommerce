@@ -1,3 +1,5 @@
+import snakePlantImage from "../assets/images/plants/snakeplant.webp";
+
 const plantData = [
   {
     id: 1,
@@ -6,7 +8,7 @@ const plantData = [
       "A hardy, low maintenance plant that thrives on neglect, perfect for new gardeners. Known for its air-purifying qualities.",
     price: "$10",
     category: "Air Purifying",
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: snakePlantImage,
   },
   {
     id: 2,
