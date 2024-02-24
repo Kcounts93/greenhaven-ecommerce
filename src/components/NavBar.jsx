@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container, NavItem } from "react-bootstrap";
 import { MdOutlineShoppingCart, MdOutlinePersonOutline } from "react-icons/md";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/images/logos/GreenHaven.png"; // Ensure the path to your logo is correct
+import logo from "../assets/images/logos/GreenHaven.png"; // Ensure the path to your logo is correct
 
 const NavBar = () => {
   return (

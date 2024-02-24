@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
-import logo from "../../assets/logos/GreenHaven.png"; // Update the path as necessary
+import logo from "../assets/images/logos/GreenHaven.png"; // Update the path as necessary
 
 const Footer = () => {
   return (
