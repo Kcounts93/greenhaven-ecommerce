@@ -4,11 +4,11 @@ import HomePage from "./pages/HomePage/HomePage";
 import ShopPage from "./pages/ShopPage/ShopPage";
 import ProductPage from "./pages/ProductPage/ProductPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
-import NavBar from "./components/layout/NavBar";
-import Footer from "./components/layout/Footer";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "./styles/main.scss";
+import "./assets/styles/main.scss";
 
 function App() {
   return (
